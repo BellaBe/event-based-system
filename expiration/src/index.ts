@@ -3,7 +3,7 @@ import { OrderCreatedListener } from "./events/listeners/order-created-listener"
 
 
 const start = async () => {
-    console.log("Starting expiration worker")
+    console.log("Starting expiration worker...")
     if(!process.env.NATS_URL){
         throw new Error("NATS_URL must be defined");
     }
