@@ -1,3 +1,5 @@
 node_modules
 test.http
 common/
+nats-test/
+test_nats_concurrency.js
